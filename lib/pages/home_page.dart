@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
   final int days = 30;
-  final String name = "Rogers";
+  final String name = "Flutter";
 
   @override
   Widget build(BuildContext context) {
@@ -13,7 +13,7 @@ class HomePage extends StatelessWidget {
       ),
       body: Center(
         child: Container(
-          child: Text("It's been like $days days, $name!"),
+          child: Text("Welcome to $days days of $name!"),
         ),
       ),
       drawer: Drawer(),
